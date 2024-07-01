@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.28)
+project(algebra)
+set(CMAKE_CXX_STANDARD 20)
+SET(SRC_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/inc)
+INCLUDE_DIRECTORIES(${SRC_INCLUDE_DIR})
+add_executable(algebra src/main.c inc/algebra.h src/algebra.c)

@@ -1,0 +1,3 @@
+C:/MyFiles/vscode1/algebra/build/CMakeFiles/algebra.dir
+C:/MyFiles/vscode1/algebra/build/CMakeFiles/edit_cache.dir
+C:/MyFiles/vscode1/algebra/build/CMakeFiles/rebuild_cache.dir
