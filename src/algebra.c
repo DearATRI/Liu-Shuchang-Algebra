@@ -72,7 +72,7 @@ Matrix sub_matrix(Matrix a, Matrix b)
         Matrix k=create_matrix(a.rows,a.cols);
         for(int i=0;i<a.rows;i++) {
             for(int j=0;j<a.cols;j++) {
-                k.data[i][j]=a.data[i][j]+b.data[i][j];
+                k.data[i][j]=a.data[i][j]-b.data[i][j];
             }
         }
         return k;
